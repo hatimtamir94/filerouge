@@ -113,6 +113,7 @@
     border: 0px solid #ddd;
     margin: 0px auto 0; /* Adds space below navbar */
     height: calc(100vh - 70px) ;
+    font-family: 'poppins', sans-serif;
     
 }
 
@@ -126,7 +127,7 @@
     color: #555;
     margin: 0 100px;
     margin-bottom: 30px;
-    font-family: 'poppins';sans-serif;;
+    
 }
 
 h1 {
@@ -134,7 +135,7 @@ h1 {
     color: #333;
     margin: 10px 100px;
     margin-bottom: 30px;
-    font-family: 'poppins';sans-serif;;
+    
 
 }
 
@@ -143,7 +144,7 @@ h1 {
     color: #333;
     margin: 10px 100px 20px;
     margin-bottom: 30px;
-    font-family: 'poppins';sans-serif;;
+    
 }
 
 /* Buttons */
