@@ -1,0 +1,199 @@
+
+/* Styles pour la barre de navigation */
+
+/* Navbar Styles */
+.navbar {
+    background-color: #fff;
+    border-bottom: 2px solid #fff; /* Fine bottom line */
+    padding: 10px 0;
+}
+
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+/* Logo */
+.logo {
+    font-size: 30px;
+    font-weight:600;
+    color:#333 ;
+    font-family: 'poppins'  , sans-serif;
+}
+
+/* Right Section */
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Phone Section */
+.phone {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #333;
+    margin-right:20px; /* Adds space between phone and hamburger menu */
+    font-weight: 600;
+    font-family: 'poppins',sans-serif;
+}
+.phone-icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    background: url('https://img.icons8.com/ios-filled/50/000000/phone.png') no-repeat center;
+    background-size: contain;
+}
+
+/* Hamburger Menu */
+.hamburger {
+    width: 30px;
+    height:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.hamburger div {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    
+}
+/* Menu caché */
+.hidden-menu {
+    display: none; /* Caché par défaut */
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.hidden-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    font-family: 'poppins';sans-serif;
+}
+
+.hidden-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #333;
+    background-color: #333;
+}
+
+.hidden-menu li a {
+    text-decoration: none;
+    color: #CFE3FF;
+    display: block;
+    font-weight: 600;
+    font-family:'poppins';sans-serif;;
+}
+
+
+/* Section principale */
+.profile-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    width: 100%;
+    background-color: #CFE3FF; /* Slightly darker blue */
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border: 0px solid #ddd;
+    margin: 0px auto 0; /* Adds space below navbar */
+    height: calc(100vh - 70px) ;
+    
+}
+
+/* Content Area */
+.content {
+    max-width: 50%;
+}
+
+.intro {
+    font-size: 30px;
+    color: #555;
+    margin: 0 100px;
+    margin-bottom: 30px;
+    font-family: 'poppins';sans-serif;;
+}
+
+h1 {
+    font-size:50px;
+    color: #333;
+    margin: 10px 100px;
+    margin-bottom: 30px;
+    font-family: 'poppins';sans-serif;;
+
+}
+
+.location {
+    font-size: 1rem;
+    color: #333;
+    margin: 10px 100px 20px;
+    margin-bottom: 30px;
+    font-family: 'poppins';sans-serif;;
+}
+
+/* Buttons */
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    padding: 10px 100px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn.dark1 {
+    background-color: #333;
+    color: #FFF;
+    
+}
+
+.btn.dark:hover {
+    background-color: #555;
+}
+
+.btn.dark2 {
+    background-color: #333;
+    color: #FFF;
+    border: 1px solid #333;
+    
+}
+
+.btn.dark2t:hover {
+    background-color: #333;
+    color: #333;
+}
+
+/* Image Area */
+.image img {
+    width:400px;
+    height: 400px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 10px solid #FFF;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin:0 120px;
+    
+}
