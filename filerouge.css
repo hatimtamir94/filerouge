@@ -356,4 +356,135 @@ h1 {
     color: #666;
     line-height: 1.6;
   }
+   /*resume page 4eme*/
+   .resume{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family:'poppins',sans-serif;
+  }
   
+  .resume {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  
+  .resume-header {
+    margin-bottom: 30px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #d5e8f8;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: normal;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border: none;
+   
+  }
+  
+  .section-tag {
+    display: inline-block;
+    background-color: #d5e8f8;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  
+  .resume-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  /* Resume Content */
+  .resume-content {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+  }
+  
+  .column:first-child {
+    border-left: none;
+  }
+  
+  .column:last-child {
+    border-right: none;
+  }
+  
+  .column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .column p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.6;
+  }
+  
+ /* Skills Section */
+.skills {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.skill-item p {
+  font-size: 14px;
+  color: #555555;
+  margin-right: 20px;
+}
+
+/* Circle Styles */
+.circle {
+  width: 50px;
+  height: 50px;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #ddd;
+  stroke-width: 3.8;
+}
+
+.circle-progress {
+  fill: none;
+  stroke: #6c63ff;
+  stroke-width: 3.8;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
