@@ -198,6 +198,42 @@ h1 {
     margin:0 120px;
     
 } 
+/* Pour les écrans plus petits que 768px */
+@media (max-width: 768px) {
+  .profile-section {
+      flex-direction: column; /* Empile les éléments verticalement */
+      height: auto; /* Ajuste automatiquement la hauteur */
+      text-align: center;
+  }
+
+  .content {
+      max-width: 100%; /* Prend toute la largeur */
+      padding: 0 20px;
+  }
+
+  .intro,
+  h1,
+  .location {
+      margin: 0 20px; /* Réduction des marges */
+  }
+
+  .buttons {
+      flex-direction: column; /* Empile les boutons */
+      gap: 10px; /* Espacement entre les boutons */
+  }
+
+  .btn {
+      padding: 10px 20px; /* Réduction du padding */
+  }
+
+  .image img {
+      width: 200px; /* Réduction de la taille de l'image */
+      height: 200px;
+      margin: 20px auto; /* Centrage */
+  }
+}
+
+
 /*know me more section  2eme page*/
 .about-section {
     max-width: 1400px;
@@ -276,6 +312,65 @@ h1 {
 
 
   }
+  /* Media queries pour rendre le design responsive */
+@media (max-width: 768px) {
+  .about-section {
+      height: auto; /* Ajuste automatiquement la hauteur */
+      padding: 15px;
+  }
+
+  .about-header h1 {
+      font-size: 30px; /* Réduction de la taille de la police */
+  }
+
+  .about-content strong {
+      font-size: 24px; /* Réduction de la taille de la police */
+  }
+
+  .intro-text {
+      font-size: 20px; /* Réduction de la taille de la police */
+  }
+
+  .about-content p {
+      font-size: 16px; /* Réduction de la taille de la police */
+      margin-bottom: 50px; /* Réduction de l'espacement */
+  }
+
+  .about-details {
+      flex-direction: column; /* Change en disposition verticale */
+      align-items: center;
+      text-align: center;
+  }
+
+  .detail-item span {
+      flex: 1 1 100%; /* Prend toute la largeur */
+      margin: 10px 0;
+      font-size: 16px; /* Augmente la lisibilité sur mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+      font-size: 24px; /* Encore plus petit pour les petits écrans */
+  }
+
+  .intro-text {
+      font-size: 18px;
+  }
+
+  .about-content strong {
+      font-size: 20px;
+  }
+
+  .about-content p {
+      font-size: 7px;
+      line-height: 1.6; /* Réduction de l'interligne */
+  }
+
+  .detail-item span {
+      font-size: 14px; /* Plus petit pour les très petits écrans */
+  }
+}
   
   /*3eme page what i do*/
   /* Global Styles */
